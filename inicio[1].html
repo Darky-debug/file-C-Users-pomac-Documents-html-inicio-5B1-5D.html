@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog - Juan Daniel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #3f51b5;
+            color: white;
+            padding: 20px;
+        }
+
+        .entrada-blog {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3, h4 {
+            color: #3f51b5;
+        }
+
+        p strong {
+            color: #ff5722;
+        }
+
+        p.bienvenida {
+            font-style: italic;
+            text-align: center;
+            color: #666;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .galeria img {
+            width: 30%;
+            border-radius: 10px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
+        blockquote {
+            background-color: #e0e0e0;
+            border-left: 10px solid #3f51b5;
+            margin: 20px;
+            padding: 15px;
+            font-style: italic;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form input[type="submit"] {
+            background-color: #3f51b5;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #303f9f;
+        }
+
+        .redes-sociales {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .redes-sociales a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .facebook {
+            background-color: #3b5998;
+        }
+
+        .twitter {
+            background-color: #55acee;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi blog Personal - Juan Daniel</h1>
+    <p class="bienvenida">Bienvenido a mi espacio en la web donde comparto pensamientos y experiencias sobre mis estudios y proyectos</p>
+
+    <div class="entrada-blog">
+        <h2>Primera entrada del blog</h2>
+        <p><strong>Fecha:</strong> 01/10/2024</p>
+        <p>Hola, mi nombre es Juan Daniel Pomacusi Titirico. Actualmente, estudio tres carreras: ingeniería biomédica en Univalle Santa Cruz, ingeniería informática en la UAGRM, y mecánica industrial en Técnico San Alonso. Me apasiona la tecnología, el fútbol, y jugar videojuegos en mi tiempo libre.</p>
+    </div>
+
+    <div class="entrada-blog">
+        <h3>Segunda entrada del blog</h3>
+        <p><strong>Fecha:</strong> 01/10/2024</p>
+        <p>Hoy aprendí a crear mi primera página web usando HTML. Fue emocionante ver cómo funciona la estructura del código. También espero profundizar en CSS para hacer que mis páginas sean visualmente más atractivas y dinámicas.</p>
+    </div>
+
+    <div class="entrada-blog">
+        <h4>Tercera entrada del blog</h4>
+        <p><strong>Fecha:</strong> 01/10/2024</p>
+        <p>En ingeniería biomédica, estoy trabajando en un proyecto grupal donde estamos desarrollando un bastón inteligente. Este bastón tiene como objetivo ayudar a personas con discapacidad visual mediante el uso de sensores de ultrasonido para detectar obstáculos y mejorar la navegación.</p>
+    </div>
+
+    <div class="entrada-blog">
+        <h4>Cuarta entrada del blog</h4>
+        <p><strong>Fecha:</strong> 01/10/2024</p>
+        <p>En mi otra carrera de mecánica industrial, estoy desarrollando un proyecto de una peletizadora de alimentos, lo cual ha sido un reto interesante en cuanto a diseño y funcionamiento de maquinaria.</p>
+    </div>
+
+    <div class="entrada-blog">
+        <h4>Quinta entrada del blog</h4>
+        <p><strong>Fecha:</strong> 01/10/2024</p>
+        <p>¿Por qué elegí estudiar tres carreras? Desde pequeño, siempre me ha intrigado cómo funcionan las cosas. Esa curiosidad me llevó a explorar tanto la tecnología como la ingeniería. Elegí ingeniería biomédica porque me permite aplicar la tecnología para mejorar la calidad de vida de las personas. La ingeniería informática me da las herramientas para crear soluciones a través del software, mientras que la mecánica industrial me enseña a entender cómo funcionan las máquinas. Juntas, estas áreas me permitirán desarrollar soluciones completas, desde el diseño hasta la implementación de proyectos.</p>
+    </div>
+
+    <div class="entrada-blog">
+        <h4>Sexta entrada del blog</h4>
+        <p><strong>Fecha:</strong> 01/10/2024</p>
+        <p>¿Dónde me veo en cinco años? En cinco años, me imagino trabajando en el campo de la ingeniería biomédica, desarrollando dispositivos que combinen tecnología avanzada y mecánica de precisión para ayudar a las personas. Me encantaría contribuir en proyectos que mejoren la calidad de vida de personas con discapacidades, ya sea a través de exoesqueletos o dispositivos médicos innovadores. También quiero seguir desarrollando mis habilidades en informática, creando software especializado en salud.</p>
+    </div>
+
+    <div class="entrada-blog">
+        <h4>Séptima entrada del blog</h4>
+        <p><strong>Fecha:</strong> 01/10/2024</p>
+        <p>Tiempo libre: Fútbol y videojuegos. Aparte de mis estudios, el fútbol es una de mis mayores pasiones. Mi equipo favorito es [añadir equipo], y trato de ver todos sus partidos. Además, disfruto mucho jugando videojuegos como [añadir videojuego]. Me ayuda a desconectar y relajarme después de días intensos de estudio y proyectos.</p>
+    </div>
+
+    <div class="entrada-blog">
+        <h4>Octava entrada del blog</h4>
+        <p><strong>Fecha:</strong> 01/10/2024</p>
+        <p>Uno de los principales retos en el desarrollo del bastón inteligente ha sido integrar los sensores de ultrasonido de manera eficiente. Estamos trabajando en un sistema que no solo detecte obstáculos a corta distancia, sino que también sea capaz de prever cambios en el entorno a través de algoritmos avanzados. Además, estamos probando materiales ligeros pero resistentes para la estructura del bastón, lo cual ha sido todo un desafío.</p>
+    </div>
+
+    <div class="entrada-blog">
+        <h4>Novena entrada del blog</h4>
+        <p><strong>Fecha:</strong> 01/10/2024</p>
+        <p>Mi mayor inspiración. Siempre he admirado a personas como Nikola Tesla y Alan Turing, pioneros en sus respectivos campos que revolucionaron la manera en la que entendemos la tecnología. Estas figuras me motivan a seguir aprendiendo y a encontrar maneras de usar la tecnología para mejorar el mundo.</p>
+    </div>
+
+    <!-- Galería de imágenes -->
+    <h2>Mis Proyectos</h2>
+    <div class="galeria">
+        <img src="proyecto1.jpg" alt="Bastón inteligente">
+        <img src="proyecto2.jpg" alt="Clase de bioingeniería">
+        <img src="proyecto3.jpg" alt="Pruebas de sensores">
+    </div>
+
+    <!-- Bloque de comentarios -->
+    <h2>Comentarios de mis compañeros</h2>
+    <blockquote>
+        "Juan Daniel siempre está comprometido con el éxito del equipo. El proyecto del bastón inteligente no sería lo mismo sin su dedicación."
+        <br> - Compañero de grupo
+    </blockquote>
+
+    <!-- Botones para compartir en redes sociales -->
+    <div class="redes-sociales">
+        <h2>¡Comparte mi página!</h2>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=tupaginaweb.com" class="facebook" target="_blank">Compartir en Facebook</a>
+        <a href="https://twitter.com/intent/tweet?url=tupaginaweb.com" class="twitter" target="_blank">Compartir en Twitter</a>
+    </div>
+    
+<!-- Formulario de contacto -->
+<h2>Contacto</h2>
+<form action="/enviar-mensaje" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+    
+    <label for="email">Correo:</label>
+    <input type="email" id="email" name="email">
+    
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje"></textarea>
+    
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
+
+
